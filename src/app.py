@@ -65,7 +65,3 @@ def delete_item(item_id: int):
     conn.execute("DELETE FROM items WHERE id = ?", (item_id,))
     conn.commit()
     return {"message": "Item deleted"}
-
-# abcd
-# bcde
-# cdef
